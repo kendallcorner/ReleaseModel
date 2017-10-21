@@ -37,11 +37,12 @@ def ChokedRelease(c_o, A_h, p, rho_o, gamma):
 	gamma = ratio of specific heats
 	'''
 
-	flowrate = c_o*A_h*(p*rho_o*gamma(2/(gamma+1)**((gamma+1)/(gamma -1)))**(1/2)
+	flowrate = c_o*A_h*(p*rho_o*gamma*(2/(gamma+1)**((gamma+1)/(gamma -1))))**(1/2)
 
 	return flowrate
 
 
 def NonChokedRelease():
+	
 	pass
 
