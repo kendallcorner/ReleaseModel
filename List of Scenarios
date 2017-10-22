@@ -1,0 +1,39 @@
+List of Hydrogen scenarios
+
+ - Vent stack
+    --> Vessel or process piping
+        --> PSV or RD or PV (orifice model)
+            --> Vent header (pipe head loss)
+                --> Vent stack (orifice model? and/or pipe head loss)
+                    --> Vent (release model (angular issues?))
+
+* May not all be necessary if 3% and back pressure rules are followed.
+    - how to calc backpressure?
+    - inputs could be pressure drop and backpressure
+    - part of this is flarenet.
+
+
+ - With Flow
+    --> Vessel (or skip--where is your pressure measurement coming  from?)
+        --> Piping (pipe head loss) (or skip--where is your pressure measurement coming  from?)
+            --> Leak (orifice model, probably)
+            --> Rupture (if direct from veseel?; if from piping, orifice model?)
+                --> Is Flow more or less than release rate?
+
+ - Without Flow
+    --> Vessel (or skip--where is your pressure measurement coming  from?)
+        --> Piping (orifice model? and/or pipe head loss) (or skip--where is your pressure measurement coming  from?)
+            --> Leak (orifice model, probably)
+            --> Rupture (if direct from veseel?; if from piping, orifice model?)
+
+
+
+
+
+
+
+
+Forget about thermo mixing rules and just do single component
+    - Still need a thermo library and data for your single components for this.
+
+Markov analysis?

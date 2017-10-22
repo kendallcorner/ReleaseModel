@@ -3,7 +3,9 @@
 # Vessel -->  (Pipe -->) leak
 # Pipeline --> (Pipe -->) leak
 # Vessel --> Pipe --> PSV --> Pipe --> Flare
-# 
+# TODO: install pip for phtyhon3
+# TODO: install scipy for python3
+# TODO: install thermopy
 
 
 def IsChokedFlow (p_in, p_atm, gamma):
