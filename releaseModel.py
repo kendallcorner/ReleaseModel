@@ -11,6 +11,9 @@
 def IsChokedFlow (p_in, p_atm, gamma):
 	''' 
 	Function returns True if flow is speed of sound and False if not.
+	p_in = 
+	p_atm = atospheric pressure
+	gamma = heat capacity ratios
 	'''
 
 	pressureRatio = p_in/p_atm
